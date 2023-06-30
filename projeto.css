@@ -1,0 +1,99 @@
+body{
+    color: white;
+    margin: 0;
+    background-color: rgb(22, 64, 233);
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: auto;
+    height: 150px;
+}
+section{
+    padding: 2%;
+}
+.capa{
+    color: white;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    .eu{
+        text-align: left;
+        text-align: center;
+        }        
+    h1{
+            font-size: 100px;
+            text-align: center;
+            text-transform: uppercase;
+    }
+    .perfil{
+        width: 400px;
+    }
+    .grupo_julia{
+        display: flex;
+        justify-content: space-around;
+    }
+.portfolio{
+    height: 50vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+.imagem1{
+    flex: 1;
+    text-align: center;
+}
+.imagem2{
+    flex: 1;
+    text-align: center;
+}
+.imagem3{
+    flex: 1;
+    text-align: center;
+}
+.pessoal{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.informacoes, title-grupo{
+    flex: 1;
+}
+.direita{
+    text-align: right;
+}
+
+.titulo_grupos{
+    height: 80vh;
+    background-color: rgb(0, 0, 0);
+    
+}
+.grupos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.logo_cinebrasil{
+   height: 150px;
+   flex: 2;
+}
+
+.logo-small{
+    height: auto;
+    width: 300px;
+}
+.grupo{
+    flex: 0 0 20%; 
+    margin: 30px;
+}
+.senai{
+width: 200px;
+
+}
