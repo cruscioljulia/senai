@@ -1,0 +1,280 @@
+/* Geral */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: 0px;
+    margin: 0px;
+    }
+
+/* Primeira Seção - Fernanda */
+
+.amarelo{
+    color:yellow;
+}
+/* CAPA */
+.cta{
+    width: 700px;
+    padding-left: 50px;
+}
+.capa{
+    background-size: cover;
+    height: 90vh;
+    background-image: url(imagens/GIF\ CAPA.jpg);
+}
+.CTA{
+    
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align:left;
+    padding-left: 50px;
+    display: flex;
+    margin: 0px;
+    
+}
+.cine{
+    color: rgb(0, 209, 8);
+    padding-right: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* margin: 0px; */
+}
+.CTA-dois{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align:left;
+    /* padding-left: 50px; */
+}
+.menu1{
+    padding-top: 10px;
+    color:white;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.entrar{
+    background-color:rgb(13,122,224);
+    color:white;
+    padding: 10px 20px;
+    border-radius:3px;
+    border:none;
+}
+.vertical{
+    height: 50px;
+    padding:10px;
+}
+    
+.assine{
+    padding-left:45px;
+    padding-top: 8px;
+    display: flex;
+    gap: 16px;
+}
+a{
+    color: white;
+}
+.botao{
+    font-size: 28px;
+    border-radius: 15px;
+    background-color: rgb(13,122,224);
+    padding: 10px 20px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.botao:hover{
+    background-color: rgb(0, 209, 8);
+}
+.texto{
+    padding-top: 50px;
+}
+
+/* Segunda Seção - Eduarda */
+
+    .texto{
+        padding-top: 50px;
+    }
+    .dis{
+        font-size: 25px;
+    }
+    .nosso{
+        font-size: 30px;
+    }
+    .precos{
+        height: 80vh;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(13,122,224,1) 50%, rgba(0,0,0,1) 100%);
+    }
+    
+    button{
+        background-color: #0D7AE0;
+        border-radius: 10px;
+        border: none;
+        padding: 5px 10px;
+    }
+    
+    .plano{
+        background-color: #000000;
+        width: 250px;
+        height: 250px;
+        border: 2px;
+        border-radius: 5px;
+        color: #ffffff;
+    }
+    
+    .planos{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px;
+        padding: 25px;
+    }
+
+/* Terceira Seção - Angelino */
+.mockup{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(13,122,224,1) 50%, rgba(0,0,0,1) 100%);
+    margin: 0px auto;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    height: 60vh;
+    padding: 20px;
+  }
+  .sobre {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .mockup-textos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .mockup-textos img{
+    height: 300px;
+  }
+  p{
+    justify-content: last baseline;
+  }
+  .cta-button {
+    display: inline-block;
+    background-color: #0800ff;
+    color: #000000;
+    padding: 7px 7px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  .cta-button:hover {
+    background-color: #00ff15;
+  }
+  footer {
+    background-color: #00ff15;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+/* Quarta Seção - Heitor */
+.Beneficios{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(13,122,224,1) 50%, rgba(0,0,0,1) 100%);
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.meio {
+    text-align: center; 
+    align-items: end; 
+}
+
+.beneficios {
+    color: #ffffff;
+    font-size: 27px;
+    padding-top: 2rem;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(13,122,224,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+
+.celular img{
+    height: 700px;
+    width: auto;
+    
+}
+
+.celular {
+    display: flex;
+    align-items: center 
+}
+
+.meio h3{
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+}
+.meio img{
+   width: 270px;
+   padding: 30px;
+   text-align: center;
+}
+
+.meio button{
+    height: 40px;
+    width: 260px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.logo{
+    padding: 67px;
+    
+
+}
+
+
+/* Quinta Seção - Julia */
+.catalogo {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(13,122,224,1) 50%, rgba(0,0,0,1) 100%);
+    font-family: Arial, sans-serif;
+    background-color:black;
+}
+.movie{
+   width: 20vw;
+   padding: 20px 0px;
+}
+
+.movie-title {
+    font-size: 24px;
+
+}
+.filmes{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(13,122,224,1) 50%, rgba(0,0,0,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    justify-content:space-around;
+}
+.catalogo{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(13,122,224,1) 50%, rgba(0,0,0,1) 100%);
+    text-align: center;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    padding-top: 20px;
+    
+}
+h2{
+    margin: 0;
+}
